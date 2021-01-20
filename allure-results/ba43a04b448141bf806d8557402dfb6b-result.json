@@ -1,0 +1,186 @@
+{
+  "uuid": "c28a3fb295de41c9822c14998c3a1b0c",
+  "historyId": "Get A quote BUPA",
+  "fullName": "Get A quote BUPA",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "12"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-418QSEA"
+    },
+    {
+      "name": "feature",
+      "value": "Happy Path Place an Order"
+    }
+  ],
+  "links": [],
+  "name": "Get A quote BUPA",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Value was either too large or too small for an Int32.",
+    "trace": "System.OverflowException: Value was either too large or too small for an Int32.\r\n   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)\r\n   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)\r\n   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.ConvertSimple(Type typeToConvertTo, Object value, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.ConvertSimple(IBindingType typeToConvertTo, Object value, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.Convert(Object value, IBindingType typeToConvertTo, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ConvertArg(Object value, IBindingType typeToConvertTo)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.<>c__DisplayClass47_0.<GetExecuteArguments>b__0(Object arg, Int32 argIndex)\r\n   at System.Linq.Enumerable.<SelectIterator>d__5`2.MoveNext()\r\n   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)\r\n   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetExecuteArguments(BindingMatch match)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on 'Bupa' page using 'chrome'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483491267,
+      "stop": 1548483504734
+    },
+    {
+      "name": "When  I click on Get a quote button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483504735,
+      "stop": 1548483505007
+    },
+    {
+      "name": "Then  I should see cover option overlay",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505008,
+      "stop": 1548483505084
+    },
+    {
+      "name": "When  I select 'Health insurance'",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505084,
+      "stop": 1548483505109
+    },
+    {
+      "name": "Then  I should see Pre-text condition overlay",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505142,
+      "stop": 1548483505143
+    },
+    {
+      "name": "When  I 'accept' condition by clicking accept and continue button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505143,
+      "stop": 1548483505143
+    },
+    {
+      "name": "Then  I should see get a health quote page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505143,
+      "stop": 1548483505143
+    },
+    {
+      "name": "When  I enter personal details as 'Javed','Khan','Mr','02/11/1986','Male','Engineer','No'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505143,
+      "stop": 1548483505143
+    },
+    {
+      "name": "And  I enter contact details as 'TW18DZ','09876543210','jk@jk.com','Email','2'",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505144,
+      "stop": 1548483505146
+    },
+    {
+      "name": "And  I select Additional family details as '3','Daughter,Son,Wife','20,18,45'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1548483505150,
+      "stop": 1548483505150
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1548483491257,
+  "stop": 1548483505209
+}

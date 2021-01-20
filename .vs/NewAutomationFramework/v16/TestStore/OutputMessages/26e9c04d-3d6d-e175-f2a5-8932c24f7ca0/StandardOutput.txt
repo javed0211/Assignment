@@ -1,0 +1,294 @@
+Given I call promotion API with key 'GDMSTGExy0sVDlZMzNDdUyZ'
+-> done: APIPageSteps.GivenICallPromotionAPIWithKey("GDMSTGExy0sVDlZMz...") (0.6s)
+Then I validate status '200'
+-> done: APIPageSteps.ThenIValidateStatus(200) (0.0s)
+And I verify response properties for valid request
+[
+  {
+    "promotionId": "Cook with Aline",
+    "orderId": 19,
+    "promoArea": [
+      "home:main"
+    ],
+    "promoType": "EPISODE",
+    "showPrice": false,
+    "showText": false,
+    "localizedTexts": {
+      "ar": [
+        "كووك ويذ آلين",
+        " "
+      ],
+      "en": [
+        "Cook with Aline",
+        " "
+      ]
+    },
+    "properties": [
+      {
+        "year": "2018",
+        "programType": "episode",
+        "currency": "USD",
+        "programAvailabilityId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/100543528420",
+        "rating": {
+          "scheme": "urn:www.citc.gov.sa",
+          "rating": "family"
+        },
+        "categories": [
+          "GADM",
+          "Entertainment"
+        ],
+        "seriesId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Program/guid/2702652773/072_INT-INTIGRAL-SERIES-S0008456",
+        "seasonNumber": 1,
+        "seriesPaId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/88697384003",
+        "genre": [
+          "Lifestyle"
+        ],
+        "programDescription": {
+          "ar": "آلين كاميكيان، ممولة وسيدة أعمال، تتحول إلى صاحبة مطعم ومؤلفة لكتب الطبخ، تقدم وصفات سريعة سهلة ولذيذة من المطبخ العربي التقليدي، مع إشارة خاصة للأطباق الأرمينية واللبنانية.",
+          "en": "Aline Kamakian, financier turned restaurateur & cookbook author, shares quick, easy and delectable recipes from traditional Arab cuisine, with a special nod to Armenian and Lebanese dishes."
+        },
+        "duration": "194",
+        "episodeNumber": 145,
+        "seriesGuid": "072_INT-INTIGRAL-SERIES-S0008456"
+      }
+    ],
+    "images": [
+      {
+        "id": "280x392",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/main/main_1551687863.jpeg",
+        "width": 280,
+        "height": 392
+      },
+      {
+        "id": "1024x392",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/tablet/tablet_1551687863.jpeg",
+        "width": 1024,
+        "height": 392
+      },
+      {
+        "id": "640x487",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/mobile/mobile_1551687863.jpeg",
+        "width": 640,
+        "height": 487
+      },
+      {
+        "id": "1920x1080",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/weblandscape/weblandscape_1551687863.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "396x586",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webportrait/webportrait_1551687863.jpeg",
+        "width": 396,
+        "height": 586
+      }
+    ]
+  },
+  {
+    "promotionId": "DAWN OF THE PLANET OF THE APES",
+    "orderId": 26,
+    "promoArea": [
+      "home:main"
+    ],
+    "promoType": "VOD",
+    "showPrice": false,
+    "showText": false,
+    "localizedTexts": {
+      "ar": [
+        "DAWN OF THE PLANET OF THE APES",
+        " ",
+        " "
+      ],
+      "en": [
+        "DAWN OF THE PLANET OF THE APES",
+        " ",
+        " "
+      ]
+    },
+    "properties": [
+      {
+        "year": "2014",
+        "programType": "movie",
+        "currency": "USD",
+        "programAvailabilityId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/160752680211",
+        "rating": {
+          "scheme": "urn:www.citc.gov.sa",
+          "rating": "18"
+        },
+        "categories": [
+          "FOX",
+          "FOXCINEMA"
+        ],
+        "genre": [
+          "Action"
+        ],
+        "programDescription": {
+          "ar": "ڤيروس مدمر يبيد الجنس البشري قبل عشر سنوات.. تاركاً حفنة من ناجين يشكلون تهديداً لمجتمع متزايد من القرود، تطوروا وراثياً.. السلام كما هو معروف.. مفتاح البقاء على قيد الحياة! لكن طبول الحرب تدقّ عالياً ولا مفرّ منها لأن طرفي النزاع من كلا النوعين يتنافسان الآن على سيادة العالم! أكشن خيالي..",
+          "en": "A devastating virus annihilated the human race ten years ago, leaving a handful of survivors, who pose a threat to a growing society of genetically evolved apes. While peace is the key to survival, a war may be inevitable as both species are now programmed to compete for world dominion."
+        },
+        "duration": "7499"
+      }
+    ],
+    "images": [
+      {
+        "id": "280x392",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/main/main_1606136873.jpeg",
+        "width": 280,
+        "height": 392
+      },
+      {
+        "id": "1024x392",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/tablet/tablet_1606136874.jpeg",
+        "width": 1024,
+        "height": 392
+      },
+      {
+        "id": "640x487",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/mobile/mobile_1606136874.jpeg",
+        "width": 640,
+        "height": 487
+      },
+      {
+        "id": "1920x1080",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/weblandscape/weblandscape_1606136874.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "396x586",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webportrait/webportrait_1606136874.jpeg",
+        "width": 396,
+        "height": 586
+      },
+      {
+        "id": "3072x1728",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_en/webcp_en_1606136874.jpeg",
+        "width": 3072,
+        "height": 1728
+      },
+      {
+        "id": "3072x1728",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_ar/webcp_ar_1606136874.jpeg",
+        "width": 3072,
+        "height": 1728
+      },
+      {
+        "id": "883x194",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_logo_en/webcp_logo_en_1606136874.png",
+        "width": 883,
+        "height": 194
+      },
+      {
+        "id": "883x194",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_logo_ar/webcp_logo_ar_1606136874.png",
+        "width": 883,
+        "height": 194
+      }
+    ]
+  },
+  {
+    "promotionId": "The Crossing",
+    "orderId": 27,
+    "promoArea": [
+      "home:main"
+    ],
+    "promoType": "SERIES",
+    "showPrice": false,
+    "showText": false,
+    "localizedTexts": {
+      "ar": [
+        "The Crossing",
+        " ",
+        " "
+      ],
+      "en": [
+        "The Crossing",
+        " ",
+        " "
+      ]
+    },
+    "properties": [
+      {
+        "year": "2018",
+        "programType": "series",
+        "currency": "USD",
+        "programAvailabilityId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/163141672208",
+        "rating": {
+          "scheme": "urn:www.citc.gov.sa",
+          "rating": "18"
+        },
+        "categories": [
+          "Starz",
+          "Series"
+        ],
+        "genre": [
+          "Drama"
+        ],
+        "programDescription": {
+          "ar": "لاجئون من حرب دمرت بلادهم، قادمون من مستقبل يبعد 180 عاماً، يبدأون بالظهور في العصر الحالي، هدفهم طلب اللجوء في المدن الأمريكية.",
+          "en": "Refugees from a war-torn country 180 years in the future start showing up in the present to seek asylum in an American town."
+        },
+        "duration": "0"
+      }
+    ],
+    "images": [
+      {
+        "id": "280x392",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/main/main_1606137014.jpeg",
+        "width": 280,
+        "height": 392
+      },
+      {
+        "id": "1024x392",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/tablet/tablet_1606137014.jpeg",
+        "width": 1024,
+        "height": 392
+      },
+      {
+        "id": "640x487",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/mobile/mobile_1606137015.jpeg",
+        "width": 640,
+        "height": 487
+      },
+      {
+        "id": "1920x1080",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/weblandscape/weblandscape_1606137015.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "396x586",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webportrait/webportrait_1606137015.jpeg",
+        "width": 396,
+        "height": 586
+      },
+      {
+        "id": "1920x1080",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_en/webcp_en_1606137015.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "1920x1080",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_ar/webcp_ar_1606137015.jpeg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "800x310",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_logo_en/webcp_logo_en_1606137015.png",
+        "width": 800,
+        "height": 310
+      },
+      {
+        "id": "800x310",
+        "url": "https://s3-eu-west-1.amazonaws.com/image.wt/Promotions/webcp_logo_ar/webcp_logo_ar_1606137015.png",
+        "width": 800,
+        "height": 310
+      }
+    ]
+  }
+]
+19
+-> done: APIPageSteps.ThenIVerifyResponsePropertiesForValidRequest() (0.0s)
